@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="your_css_file.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logadarshana Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ae8a3373f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to My Portfolio</h1>
+<p>Click the link below to go to another website:</p>
+
+<!-- Here's the link -->
+<a href="https://www.myportfolio.com">Visit Example Website</a>
+
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>     
+        </nav>
+        <div class="header-text">
+            <p>Hi,I'm</p>
+            <h1><span>Logadarshana K</span><br> from VIT Vellore</h1>
+            <a href="images/Logadarshana K_CV.pdf" download class="btn"><i class="fa fa-download"></i>Download CV</a>
+        </div>
+    </div>
+
+ </div>   
+ <!-----------about------------------------------------------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p> An enthusiastic fresher with highly motivated and leadership skills having bachelors of engineering degree in ECE.
+                    Expert in implementation of each step of project.
+                    Eager to learn new technologies and methodologies.
+                    Always willing to innovate the new things which can improve the existing technology.</p>
+                  
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming:</span><br> Python, Java, HTML/CSS,SQL(Beginner), Embedded C (Beginner), R programming(Beginner), Angular(Beginner)</li>
+                            <li><span>Hardware Languages:</span><br> Verilog,  Microprocessor Assembly Program</li>
+                            <li><span>Tools:</span><br> MATLAB, Tinkercad, Spice simulation tools(Cadence Virtuoso, PSpice, LTSpice, keil u vision )</li>
+                            <li><span>Software:</span><br> MS Excel, MS Powerpoint, Power BI, Power Query, MYSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021- Current</span><br>B.Tech- VIT Vellore<br>CGPA: 8.68</li>
+                            <li><span>2020-2021</span><br>Senior Secondary- SISHYA SCHOOL<br>Percentage:92%</li>
+                            <li><span>2018-2019</span><br>Secondary- SISHYA SCHOOL<br>Percentage:94%</li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+ </div>
+<!-----------------------Experiences------------------>
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">My Experience</h1>
+        <div class="experience-list">
+            <div class="experience">
+                <img src="images/bosch.png">
+                <div class="layer">
+                    <h2>BOSCH RBAI</h2>
+                    <p>INTERNSHIP<br>Aug-Dec 2023<br>Field: Automotive Electronics</p>
+                    <a href="images/BOSCH.pdf" class="arrow-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/tvs logo.png">
+                <div class="layer">
+                    <h2>TVS MOTORS</h2>
+                <p>INTERNSHIP<br>Dec 2023<br>Field: Data Science & AI</p>
+                <a href="images/TVS.pdf" class="arrow-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="images/ieee logo.png">
+                <div class="layer">
+                    <h2>IEEE SPS</h2>
+                <p>EDITORIAL HEAD<br>2023-Current</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------Volunteering--------------------->
+<div id="volunteer">
+    <div class="container">
+        <h1 class="sub-title">My Volunteering</h1>
+        <div class="volunteer-list">
+            <div>
+                <i class="fa-solid fa-signal"></i>
+                <h2>IEEE SPS</h2>
+                <p>Host of events like Streaming signals, CASA:drug abuse, Loging into Verilog.Oraganised HACKATHON in YANTRA 2024 names TechnoVolt. </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h2>CSED</h2>
+                <p>Senior Core member, written and published my blogs in the CSED newsletter.</p>               
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------Contact---------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href=""><i class="fa-solid fa-envelope"></i></a>ladarshana03@gmail.com</p>
+                <p><a href=""><i class="fa-solid fa-phone"></i></a>9629796407</p>
+            </div>
+            <div class="contact-right">
+                <h1 class="sub-title">Follow me </h1>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/logadarshana-kandasamy-98684a21b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Logadarshana"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright &copy; 2024 Logadarshana. All rights reserved.</p>
+</div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+</body>
+</html>
